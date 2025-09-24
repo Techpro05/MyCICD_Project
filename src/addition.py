@@ -1,6 +1,6 @@
-#declare variables
-a = 15
-b = 12
+def add(a, b):
+    return a + b
 
-# Adding two numbers
-res = a + b
+def test_add():
+    assert add(1, 2) == 3
+    assert add(1, -1) == 0
